@@ -10,7 +10,7 @@ const Landing = () => {
       <Navbar>
         <img className="logo" src="https://gdsc-ju.vercel.app/_next/image?url=%2Fgdsc.png&w=828&q=75" alt="" />
         <div className="right-links">
-          <a href="/">Register on Unstop</a>
+          <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579">Register on Unstop</a>
           <a href="/">Event Timeline</a>
           <a href="/">Problem Statements</a>
           {/* <a href="/">Leaderboard</a> */}
@@ -27,7 +27,7 @@ const Landing = () => {
           </h3>
           <h1>Bit-N-Build <br /> State Level Hackathon</h1>
           <p>28th Jan - 2nd Feb, Online Hackathon</p>
-          <a href="/" className="reg-btn">
+          <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" className="reg-btn">
             {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
             <div className="text">Register on Unstop</div>
             <CallMadeIcon />
@@ -39,7 +39,7 @@ const Landing = () => {
             GDSC Jadavpur University, presents
           </h3>
           <h1>Bit-N-Build <br /> State Level Hackathon</h1>
-          <p>28th Jan - 2nd Feb, Online Hackathon</p>
+          <p>25th Jan - 4th Feb, Online Hackathon</p>
           <a href="/" className="reg-btn">
             {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
             <div className="text">Register on Unstop</div>
@@ -100,16 +100,19 @@ const Landing = () => {
           <h2>Problem Statements</h2>
           <div className="problem-statements-container">
             <div className="problem-statement">
-              <h3>Sustainable City Solutions</h3>
-              <div className="desc">Develop innovative technological solutions to address sustainability challenges in urban environments. Propose ideas that can contribute to energy efficiency, waste management, and overall environmental conservation within cities. Participants should consider smart infrastructure, IoT devices, and data analytics to create solutions that promote sustainable living in urban areas.</div>
+              <h3>Environmental Sustainability</h3>
+              <div className="desc">Promote environmental stewardship by leveraging technology and innovation to address urgent ecological challenges. Participants are encouraged to devise solutions fostering a sustainable future.
+Example: Develop a smart device application that empowers users to monitor and reduce their environmental impact by suggesting eco-conscious lifestyle choices, encouraging a greener and more sustainable way of living.</div>
             </div>
             <div className="problem-statement">
-              <h3>HealthTech Revolution</h3>
-              <div className="desc">Revolutionize healthcare through the integration of technology. Participants are tasked with creating cutting-edge HealthTech solutions that enhance patient care, improve diagnostics, or streamline healthcare processes. Whether it's leveraging AI for personalized medicine, developing telemedicine platforms, or utilizing wearables for health monitoring, the goal is to bring about significant advancements in the healthcare industry.</div>
+              <h3>AI in everyday life and Inclusive technology</h3>
+              <div className="desc">Champion inclusivity through technology by crafting solutions tailored for individuals with disabilities, and simultaneously, explore the potential of artificial intelligence (AI) in everyday life. Participants are tasked with designing accessible applications and services, powered by  AI-driven applications for diverse purposes.
+Example: Create a multifaceted mobile app that not only offers real-time sign language translation for deaf individuals during video calls, enhancing inclusivity, but also integrates AI capabilities as a personal assistant. This AI assistant aids users in managing schedules, making personalized recommendations, and providing valuable information based on individual preferences, thus seamlessly integrating inclusive technology with the power of AI in daily life.</div>
             </div>
             <div className="problem-statement">
-              <h3>Future of Work: Remote Collaboration</h3>
-              <div className="desc">With the rise of remote work, explore ways to enhance collaboration and productivity in virtual workspaces. Develop tools and platforms that facilitate seamless communication, project management, and team collaboration in a remote environment. Solutions may include virtual reality applications, AI-driven project management tools, or innovative ways to recreate the office experience in a virtual space, fostering a sense of connection among remote teams.</div>
+              <h3>Student-Led Innovation</h3>
+              <div className="desc">Design projects that will benefit the student community.
+Example: Develop a platform for students to easily find and share educational resources, study materials, and collaborative study groups.</div>
             </div>
           </div>
         </div>
