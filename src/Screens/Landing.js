@@ -26,7 +26,7 @@ const Landing = () => {
             GDSC Jadavpur University, presents
           </h3>
           <h1>Bit-N-Build <br /> State Level Hackathon</h1>
-          <p>28th Jan - 2nd Feb, Online Hackathon</p>
+          <p>25th Jan - 2nd Feb, Online Hackathon</p>
           <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" className="reg-btn">
             {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
             <div className="text">Register on Unstop</div>
