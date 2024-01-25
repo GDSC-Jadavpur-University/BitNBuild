@@ -3,6 +3,9 @@ import styled from "styled-components";
 import CallMadeIcon from '@material-ui/icons/CallMade';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
+import EventIcon from '@material-ui/icons/Event';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
 
 const Landing = () => {
   return (
@@ -53,6 +56,18 @@ const Landing = () => {
           <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/65a4f1c39ae0d_bit-n-build-international-hackathon.png?d=1280x371" alt="" />
           {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
           <p>Bit N Build, an international Hackathon by Fr. Conceicao Rodrigues College of Engineering, Mumbai, collaborates with 25 colleges globally. Last year's edition had 900+ participants and 200+ teams, making it the best hackathon at the college. This year, it aims for global recognition, starting with regional rounds at participating colleges and culminating in a final competition in Mumbai.</p>
+          <div className="imp-about">
+            <EventIcon/> <div className="text">Registration Deadline : 31 Jan 24, 11:59 PM IST</div>
+          </div>
+          <div className="imp-about">
+            <EventIcon/> <div className="text">Grand Finale : 24-25 Feb 24</div>
+          </div>
+          <div className="imp-about">
+            <CheckCircleOutlineIcon/> <div className="text">Registration Fee : Rs.400 per team</div>
+          </div>
+          <div className="imp-about">
+            <GroupAddIcon/> <div className="text">Team Size : 2 to 4 members (Inter-College teams allowed. Individuals must be from the same state.)</div>
+          </div>
         </div>
         <div className="event-timeline">
           <h2>Event Timeline</h2>
@@ -395,16 +410,46 @@ const Container = styled.div`
         line-height: 1.75rem;
         font-weight: 200;
         color: #e1e1e1;
-        width: 80%;
+        width: 500px;
+        margin-bottom: 40px;
 
         @media (max-width: 1150px) {
           width: 100%;
           padding: 20px 0;
         }
       }
+
+      .imp-about{
+        display: flex;
+        width: 500px;
+
+        align-items: center;
+        margin: 10px 0;
+
+        svg{
+          font-size: 1.75rem;
+        }
+
+        .text{
+          margin-left: 20px;
+          font-size: 1rem;
+          line-height: 1.75rem;
+          font-weight: 500;
+          color: #e1e1e1;
+        }
+
+        @media (max-width: 1150px) {
+          width: 100%;
+          margin-bottom: 10px;
+
+          .text{
+            font-weight: 200;
+          }
+        }
+      }
       
       img{
-        width: 50%;
+        width: 600px;
         border-radius: 10px;
         margin-bottom: 40px;
 
