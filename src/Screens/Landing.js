@@ -11,8 +11,8 @@ const Landing = () => {
         <img className="logo" src="https://gdsc-ju.vercel.app/_next/image?url=%2Fgdsc.png&w=828&q=75" alt="" />
         <div className="right-links">
           <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank">Register on Unstop</a>
-          <a href="/">Event Timeline</a>
-          <a href="/">Problem Statements</a>
+          {/* <a href="/">Event Timeline</a>
+          <a href="/">Problem Statements</a> */}
           {/* <a href="/">Leaderboard</a> */}
         </div>
       </Navbar>
@@ -32,7 +32,7 @@ const Landing = () => {
             <CallMadeIcon />
           </a>
         </div>
-            {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
+        {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
       </div>
       <div className="page1-mg">
         <h3>
@@ -46,12 +46,12 @@ const Landing = () => {
           <CallMadeIcon />
         </a>
       </div>
-      
+
       <div className="page2">
         <div className="block-centered about">
           <h2>About this Event</h2>
-          {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
           <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/65a4f1c39ae0d_bit-n-build-international-hackathon.png?d=1280x371" alt="" />
+          {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
           <p>Bit N Build, an international Hackathon by Fr. Conceicao Rodrigues College of Engineering, Mumbai, collaborates with 25 colleges globally. Last year's edition had 900+ participants and 200+ teams, making it the best hackathon at the college. This year, it aims for global recognition, starting with regional rounds at participating colleges and culminating in a final competition in Mumbai.</p>
         </div>
         <div className="event-timeline">
@@ -102,41 +102,41 @@ const Landing = () => {
           <h2>Event Timeline</h2>
           <div className="vertical-line"></div>
           <div className="event">
-            <div className="circle">
-              25th Jan - 31st Jan
-            </div>
             <div className="content right">
               <h3>Registrations Open!!</h3>
+              <div className="date">
+                25th Jan - 31st Jan
+              </div>
               <p>Secure your spot now by completing the registration process before January 31st</p>
               <ArrowLeftIcon />
             </div>
           </div>
           <div className="event">
-            <div className="circle">
-              Till 2nd Feb 8pm
-            </div>
             <div className="content right">
               <h3>1st Round of State Level Hackathon Ideation Submissions</h3>
+              <div className="date">
+                Till 2nd Feb 8pm
+              </div>
               <p>Kindly submit your comprehensive ideation in PowerPoint format and share a GitHub repository showcasing the basic features, accompanied by a brief video highlighting the key functionalities.</p>
               <ArrowLeftIcon />
             </div>
           </div>
           <div className="event">
-            <div className="circle">
-              4th Feb, 2024
-            </div>
             <div className="content right">
               <h3>2nd Round of State Level Hackathon Ideation Submissions</h3>
+              <div className="date">
+                4th Feb, 2024
+              </div>
               <p>Engage in a virtual interview with our esteemed panel of judges, where they will inquire about your project and its implemented features, assigning scores based on your presentation and responses</p>
               <ArrowLeftIcon />
             </div>
           </div>
           <div className="event">
-            <div className="circle">
-              25 Feb, 2024
-            </div>
             <div className="content right">
               <h3>Finals in Mumbai !!</h3>
+              <div className="date">
+                25 Feb, 2024
+              </div>
               <p>Participate in an exclusive 2-day onsite hackathon in Mumbai with sponsored accommodation, meals, and travel, and stand a chance to win enticing cash prizes</p>
               <ArrowLeftIcon />
             </div>
@@ -288,8 +288,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('https://media4.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif') no-repeat center center;
-    background-size: cover;
+    position: relative;
 
     h1{
       font-size: 3.5rem;
@@ -297,18 +296,21 @@ const Container = styled.div`
       text-align: center;
       margin: 30px 0;
       font-family: 'Rubik Scribble', sans-serif;
+      z-index: 1;
     }
 
     h3{
       font-size: 1rem;
       font-weight: 200;
       text-align: center;
+      z-index: 1;
     }
 
     p{
       font-size: 1.5rem;
       font-weight: 200;
       text-align: center;
+      z-index: 1;
     }
 
     .reg-btn{
@@ -319,6 +321,7 @@ const Container = styled.div`
         text-decoration: none;
         display: flex;
         align-items: center;
+        z-index: 1;
         
         .text{
           color: cornflowerblue;
@@ -341,6 +344,19 @@ const Container = styled.div`
     @media (min-width: 1150px) {
       display: none;
     }
+  }
+
+  .page1-mg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('https://media1.giphy.com/media/7OH9z8lL8cnmkOxb6A/200.gif') no-repeat center center;
+    background-size: cover;
+    filter: brightness(0.35);
+    z-index: 0; /* Place it behind the content */
   }
 
   .page2{
@@ -370,6 +386,7 @@ const Container = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 0 20px;
 
       p{
         margin: 0 auto;
@@ -533,7 +550,6 @@ const Container = styled.div`
         position: relative;
 
         .circle{
-          
           height: 120px;
           width: 120px;
           background-color: #323841;
@@ -555,22 +571,40 @@ const Container = styled.div`
 
         .content{
           /* height: 160px; */
-          /* width: 400px; */
+          width: calc(100vw - 40px);
           flex: 1;
           background-color: #e5e5e5;
           border-radius: 10px;
           padding: 20px;
 
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
           h3{
             color: #333;
             font-size: 1.15rem;
             font-weight: 500;
+            text-align: left;
           }
 
           p{
             color: #333;
             font-size: 0.9rem;
             font-weight: 300;
+            text-align: left;
+          }
+
+          .date{
+            color: #333;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+            padding: 5px 10px;
+            background-color: #daceb7;
+            border-radius: 100px;
+            margin-left: -5px;
+            margin-bottom: 10px;
           }
 
           svg{
@@ -605,11 +639,32 @@ const Container = styled.div`
 
       .vertical-line{
         position: absolute;
-        height: 800px;
+        height: 1000px;
         width: 1px;
         border-left: 1px dashed white;
         z-index: 0;
         left: 10px;
+        top: 180px;
+
+        @media (min-width: 350px) {
+          height: 850px;
+        }
+
+        @media (min-width: 400px) {
+          height: 700px;
+        }
+
+        @media (min-width: 500px) {
+          height: 650px;
+        }
+
+        @media (min-width: 620px) {
+          height: 600px;
+        }
+
+        @media (min-width: 750px) {
+          height: 550px;
+        }
       }
 
       @media (min-width: 1150px) {
