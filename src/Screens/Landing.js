@@ -6,6 +6,7 @@ import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import EventIcon from '@material-ui/icons/Event';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import GroupAddIcon from '@material-ui/icons/GroupAdd';
+// import Fade from 'react-reveal/Fade';
 
 const Landing = () => {
   return (
@@ -25,29 +26,29 @@ const Landing = () => {
           <img src="https://j.gifs.com/mlVWba.gif" alt="" />
         </div>
         <div className="middle-main">
+            <h3>
+              GDSC Jadavpur University, presents
+            </h3>
+            <h1>Bit-N-Build <br /> State Level Hackathon</h1>
+            <p>28th Jan - 2nd Feb, Online Hackathon</p>
+            <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank" className="reg-btn">
+              <div className="text">Register on Unstop</div>
+              <CallMadeIcon />
+            </a>
+        </div>
+        {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
+      </div>
+      <div className="page1-mg">
           <h3>
             GDSC Jadavpur University, presents
           </h3>
           <h1>Bit-N-Build <br /> State Level Hackathon</h1>
           <p>28th Jan - 2nd Feb, Online Hackathon</p>
           <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank" className="reg-btn">
+            {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
             <div className="text">Register on Unstop</div>
             <CallMadeIcon />
           </a>
-        </div>
-        {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
-      </div>
-      <div className="page1-mg">
-        <h3>
-          GDSC Jadavpur University, presents
-        </h3>
-        <h1>Bit-N-Build <br /> State Level Hackathon</h1>
-        <p>28th Jan - 2nd Feb, Online Hackathon</p>
-        <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank" className="reg-btn">
-          {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
-          <div className="text">Register on Unstop</div>
-          <CallMadeIcon />
-        </a>
       </div>
 
       <div className="page2">
@@ -57,16 +58,16 @@ const Landing = () => {
           {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
           <p>Bit N Build, an international Hackathon by Fr. Conceicao Rodrigues College of Engineering, Mumbai, collaborates with 25 colleges globally. Last year's edition had 900+ participants and 200+ teams, making it the best hackathon at the college. This year, it aims for global recognition, starting with regional rounds at participating colleges and culminating in a final competition in Mumbai.</p>
           <div className="imp-about">
-            <EventIcon/> <div className="text">Registration Deadline : 31 Jan 24, 11:59 PM IST</div>
+            <EventIcon /> <div className="text">Registration Deadline : 31 Jan 24, 11:59 PM IST</div>
           </div>
           <div className="imp-about">
-            <EventIcon/> <div className="text">Grand Finale : 24-25 Feb 24</div>
+            <EventIcon /> <div className="text">Grand Finale : 24-25 Feb 24</div>
           </div>
           <div className="imp-about">
-            <CheckCircleOutlineIcon/> <div className="text">Registration Fee : Rs.400 per team</div>
+            <CheckCircleOutlineIcon /> <div className="text">Registration Fee : Rs.400 per team</div>
           </div>
           <div className="imp-about">
-            <GroupAddIcon/> <div className="text">Team Size : 2 to 4 members (Inter-College teams allowed. Individuals must be from the same state.)</div>
+            <GroupAddIcon /> <div className="text">Team Size : 2 to 4 members (Inter-College teams allowed. Individuals must be from the same state.)</div>
           </div>
         </div>
         <div className="event-timeline">
@@ -246,11 +247,11 @@ const Container = styled.div`
 
       h1{
         font-size: 80px;
-        font-weight: 900;
         text-align: center;
         line-height: 100px;
         margin: 30px 0;
         font-family: 'Rubik Scribble', sans-serif;
+        font-weight: 900;
       }
 
       h3{
