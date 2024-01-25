@@ -10,7 +10,7 @@ const Landing = () => {
       <Navbar>
         <img className="logo" src="https://gdsc-ju.vercel.app/_next/image?url=%2Fgdsc.png&w=828&q=75" alt="" />
         <div className="right-links">
-          <a href="/">Register on Unstop</a>
+          <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank">Register on Unstop</a>
           <a href="/">Event Timeline</a>
           <a href="/">Problem Statements</a>
           {/* <a href="/">Leaderboard</a> */}
@@ -27,29 +27,31 @@ const Landing = () => {
           </h3>
           <h1>Bit-N-Build <br /> State Level Hackathon</h1>
           <p>28th Jan - 2nd Feb, Online Hackathon</p>
-          <a href="/" className="reg-btn">
-            {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
+          <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank" className="reg-btn">
             <div className="text">Register on Unstop</div>
             <CallMadeIcon />
           </a>
         </div>
+            {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
       </div>
       <div className="page1-mg">
-          <h3>
-            GDSC Jadavpur University, presents
-          </h3>
-          <h1>Bit-N-Build <br /> State Level Hackathon</h1>
-          <p>28th Jan - 2nd Feb, Online Hackathon</p>
-          <a href="/" className="reg-btn">
-            {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
-            <div className="text">Register on Unstop</div>
-            <CallMadeIcon />
-          </a>
+        <h3>
+          GDSC Jadavpur University, presents
+        </h3>
+        <h1>Bit-N-Build <br /> State Level Hackathon</h1>
+        <p>28th Jan - 2nd Feb, Online Hackathon</p>
+        <a href="https://unstop.com/p/bit-n-build-international-hackathon-google-developer-student-clubs-crce-863579" target="_blank" className="reg-btn">
+          {/* <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png" alt="" /> */}
+          <div className="text">Register on Unstop</div>
+          <CallMadeIcon />
+        </a>
       </div>
+      
       <div className="page2">
         <div className="block-centered about">
           <h2>About this Event</h2>
           {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
+          <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/65a4f1c39ae0d_bit-n-build-international-hackathon.png?d=1280x371" alt="" />
           <p>Bit N Build, an international Hackathon by Fr. Conceicao Rodrigues College of Engineering, Mumbai, collaborates with 25 colleges globally. Last year's edition had 900+ participants and 200+ teams, making it the best hackathon at the college. This year, it aims for global recognition, starting with regional rounds at participating colleges and culminating in a final competition in Mumbai.</p>
         </div>
         <div className="event-timeline">
@@ -96,20 +98,67 @@ const Landing = () => {
             </div>
           </div>
         </div>
+        <div className="event-timeline-mg">
+          <h2>Event Timeline</h2>
+          <div className="vertical-line"></div>
+          <div className="event">
+            <div className="circle">
+              25th Jan - 31st Jan
+            </div>
+            <div className="content right">
+              <h3>Registrations Open!!</h3>
+              <p>Secure your spot now by completing the registration process before January 31st</p>
+              <ArrowLeftIcon />
+            </div>
+          </div>
+          <div className="event">
+            <div className="circle">
+              Till 2nd Feb 8pm
+            </div>
+            <div className="content right">
+              <h3>1st Round of State Level Hackathon Ideation Submissions</h3>
+              <p>Kindly submit your comprehensive ideation in PowerPoint format and share a GitHub repository showcasing the basic features, accompanied by a brief video highlighting the key functionalities.</p>
+              <ArrowLeftIcon />
+            </div>
+          </div>
+          <div className="event">
+            <div className="circle">
+              4th Feb, 2024
+            </div>
+            <div className="content right">
+              <h3>2nd Round of State Level Hackathon Ideation Submissions</h3>
+              <p>Engage in a virtual interview with our esteemed panel of judges, where they will inquire about your project and its implemented features, assigning scores based on your presentation and responses</p>
+              <ArrowLeftIcon />
+            </div>
+          </div>
+          <div className="event">
+            <div className="circle">
+              25 Feb, 2024
+            </div>
+            <div className="content right">
+              <h3>Finals in Mumbai !!</h3>
+              <p>Participate in an exclusive 2-day onsite hackathon in Mumbai with sponsored accommodation, meals, and travel, and stand a chance to win enticing cash prizes</p>
+              <ArrowLeftIcon />
+            </div>
+          </div>
+        </div>
         <div className="block-centered problem-statements">
           <h2>Problem Statements</h2>
           <div className="problem-statements-container">
             <div className="problem-statement">
-              <h3>Sustainable City Solutions</h3>
-              <div className="desc">Develop innovative technological solutions to address sustainability challenges in urban environments. Propose ideas that can contribute to energy efficiency, waste management, and overall environmental conservation within cities. Participants should consider smart infrastructure, IoT devices, and data analytics to create solutions that promote sustainable living in urban areas.</div>
+              <h3>Environmental Sustainability</h3>
+              <div className="desc">Promote environmental stewardship by leveraging technology and innovation to address urgent ecological challenges. Participants are encouraged to devise solutions fostering a sustainable future.
+                Example: Develop a smart device application that empowers users to monitor and reduce their environmental impact by suggesting eco-conscious lifestyle choices, encouraging a greener and more sustainable way of living.</div>
             </div>
             <div className="problem-statement">
-              <h3>HealthTech Revolution</h3>
-              <div className="desc">Revolutionize healthcare through the integration of technology. Participants are tasked with creating cutting-edge HealthTech solutions that enhance patient care, improve diagnostics, or streamline healthcare processes. Whether it's leveraging AI for personalized medicine, developing telemedicine platforms, or utilizing wearables for health monitoring, the goal is to bring about significant advancements in the healthcare industry.</div>
+              <h3>AI in everyday life and Inclusive technology</h3>
+              <div className="desc">Champion inclusivity through technology by crafting solutions tailored for individuals with disabilities, and simultaneously, explore the potential of artificial intelligence (AI) in everyday life. Participants are tasked with designing accessible applications and services, powered by  AI-driven applications for diverse purposes.
+                Example: Create a multifaceted mobile app that not only offers real-time sign language translation for deaf individuals during video calls, enhancing inclusivity, but also integrates AI capabilities as a personal assistant. This AI assistant aids users in managing schedules, making personalized recommendations, and providing valuable information based on individual preferences, thus seamlessly integrating inclusive technology with the power of AI in daily life.</div>
             </div>
             <div className="problem-statement">
-              <h3>Future of Work: Remote Collaboration</h3>
-              <div className="desc">With the rise of remote work, explore ways to enhance collaboration and productivity in virtual workspaces. Develop tools and platforms that facilitate seamless communication, project management, and team collaboration in a remote environment. Solutions may include virtual reality applications, AI-driven project management tools, or innovative ways to recreate the office experience in a virtual space, fostering a sense of connection among remote teams.</div>
+              <h3>Student-Led Innovation</h3>
+              <div className="desc">Design projects that will benefit the student community.
+                Example: Develop a platform for students to easily find and share educational resources, study materials, and collaborative study groups.</div>
             </div>
           </div>
         </div>
@@ -318,6 +367,10 @@ const Container = styled.div`
     }
     
     .about{  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
       p{
         margin: 0 auto;
         text-align: center;
@@ -329,7 +382,18 @@ const Container = styled.div`
 
         @media (max-width: 1150px) {
           width: 100%;
-          padding: 20px;
+          padding: 20px 0;
+        }
+      }
+      
+      img{
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 40px;
+
+        @media (max-width: 1150px) {
+          width: 100%;
+          margin-bottom: 10px;
         }
       }
 
@@ -440,6 +504,115 @@ const Container = styled.div`
       }
 
       @media (max-width: 1150px) {
+        display: none;
+      }
+    }
+
+    .event-timeline-mg{
+      margin-top: 100px;
+      width: calc(100vw - 40px);
+      position: relative;
+
+      h2{
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 30px;
+      }
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .event{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        position: relative;
+
+        .circle{
+          
+          height: 120px;
+          width: 120px;
+          background-color: #323841;
+          margin: 10px 0;
+          border-radius: 50%;
+          z-index: 1;
+
+          font-size: 0.9rem;
+          padding: 20px;
+          text-align: center;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 5px solid transparent;
+
+          display: none;
+        }
+
+        .content{
+          /* height: 160px; */
+          /* width: 400px; */
+          flex: 1;
+          background-color: #e5e5e5;
+          border-radius: 10px;
+          padding: 20px;
+
+          h3{
+            color: #333;
+            font-size: 1.15rem;
+            font-weight: 500;
+          }
+
+          p{
+            color: #333;
+            font-size: 0.9rem;
+            font-weight: 300;
+          }
+
+          svg{
+            font-size: 100px;
+          }
+        }
+
+        .right{
+          position: relative;
+          /* margin-left: 50px; */
+          /* left: 250px;  */
+          svg{
+            display: none;
+            position: absolute;
+            left: -58px;
+            top: 15px;
+          }
+        }
+
+        &:hover{
+          transition-duration: 250ms;
+          
+          .circle{
+            /* background-color: orange; */
+            border: 5px solid white;
+            transition-duration: 250ms;
+            /* color: #333; */
+            cursor: pointer;
+          }
+        }
+      }
+
+      .vertical-line{
+        position: absolute;
+        height: 800px;
+        width: 1px;
+        border-left: 1px dashed white;
+        z-index: 0;
+        left: 10px;
+      }
+
+      @media (min-width: 1150px) {
         display: none;
       }
     }
