@@ -58,7 +58,7 @@ const Landing = () => {
           {/* <p>Bit N Build is an international Hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Mumbai in collaboration with 25 national and international colleges. It promotes exposure and collaboration opportunities for students across various universities worldwide. It is an event that has gained immense popularity and success in its foremost edition. Last year, this was the best hackathon conducted by Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai, and it had 900+ Participants and 200+ teams. This year, Bit N Build is set to make waves internationally, showcasing its innovation on the global stage, while also solidifying its influence at the national level. In the first phase of the hackathon, participating colleges will host the hackathon in their respective states. The hackathon’s final round will feature the top teams from this phase, earning them an invitation to compete in Mumbai at Fr. Conceicao Rodrigues College of Engineering.</p> */}
           <p>Bit N Build, an international Hackathon by Fr. Conceicao Rodrigues College of Engineering, Mumbai, collaborates with 25 colleges globally. Last year's edition had 900+ participants and 200+ teams, making it the best hackathon at the college. This year, it aims for global recognition, starting with regional rounds at participating colleges and culminating in a final competition in Mumbai.</p>
           <div className="imp-about">
-            <EventIcon /> <div className="text">Registration Deadline : 31 Jan 24, 11:59 PM IST</div>
+            <EventIcon /> <div className="text">Registration Deadline : 2nd Jan 2024, 10:59 AM IST</div>
           </div>
           <div className="imp-about">
             <EventIcon /> <div className="text">Grand Finale : 24-25 Feb 24</div>
@@ -175,6 +175,10 @@ const Landing = () => {
               <h3>Student-Led Innovation</h3>
               <div className="desc">Design projects that will benefit the student community.
                 Example: Develop a platform for students to easily find and share educational resources, study materials, and collaborative study groups.</div>
+            </div>
+            <div className="problem-statement">
+              <h3>Open Ended</h3>
+              <div className="desc">Explore uncharted territories! In this category, participants are invited to unleash their creativity and tackle any problem statement they are passionate about. Let your imagination run wild and make a meaningful impact with your innovative solutions!</div>
             </div>
           </div>
         </div>
